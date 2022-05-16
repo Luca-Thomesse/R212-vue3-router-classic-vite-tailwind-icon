@@ -5,6 +5,9 @@
     <nav>
       <RouterLink to="/" class="text-blue-600 underline">Accueil</RouterLink>
     </nav>
+    <menu-logo>
+      
+    </menu-logo>
   </header>
 
   <RouterView />
@@ -13,7 +16,9 @@
 <script>
 import IconLogo from "./components/icons/IconLogo.vue";
 import { FilmIcon } from "@heroicons/vue/outline";
+import { MenuIcon} from "@heroicons/vue/outline";
 export default {
   components: { IconLogo, FilmIcon },
+  components: { IconLogo, MenuIcon },
 };
 </script>

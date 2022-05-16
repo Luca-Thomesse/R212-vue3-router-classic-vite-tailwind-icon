@@ -1,6 +1,13 @@
 <template>
+  
+  <head>Estary</head>
+  
+  <header>
+     <h1 class="text-2xl ">Estary</h1>
+  </header>
+  
   <main>
-    <h1 class="text-2xl">Bonjour</h1>
+    
   </main>
 </template>
 
